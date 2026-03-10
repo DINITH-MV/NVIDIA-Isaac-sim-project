@@ -1,12 +1,15 @@
-# Ignore ROS 2 build artifacts
-build/
-install/
-log/
+# ROS 2 build & install files
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
 
-# Ignore Python cache
-__pycache__/
-*.pyc
+# Isaac Sim binaries (local install, huge)
+/opt/isaac-sim/
 
-# Ignore system files
-.vscode/
-.DS_Store
+# Logs
+logs/
+*.log
+
+# OS & temp files
+*.swp
+*.DS_Store
