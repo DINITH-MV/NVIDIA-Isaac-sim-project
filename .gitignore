@@ -1,15 +1,22 @@
-# ROS 2 build & install files
-ros2_ws/build/
-ros2_ws/install/
-ros2_ws/log/
-
-# Isaac Sim binaries (local install, huge)
-/opt/isaac-sim/
-
-# Logs
+# Isaac Sim runtime/cache
+_build/
+cache/
 logs/
-*.log
+kit/
+*.pyc
+__pycache__/
+*.usdc
+*.usdz
+*.bag
+*.so
+.nvidia-omniverse/
 
-# OS & temp files
-*.swp
-*.DS_Store
+# Credentials
+*.key
+*.pem
+.netrc
+secrets.yaml
+
+# System
+.DS_Store
+Thumbs.db
